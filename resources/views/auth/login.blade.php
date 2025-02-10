@@ -19,7 +19,7 @@
       </div>
       <div class="form-right">
         <h2>Login</h2>
-        <form class="form-detail" action="#" method="post">
+        <form class="form-detail" action="{{route('login')}}" method="post">
           <div class="form-row">
             <label class="form-row-inner">
               <input type="text" name="full_name" id="full_name" class="input-text" required>

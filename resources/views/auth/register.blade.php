@@ -19,30 +19,31 @@
       </div>
       <div class="form-right">
         <h2>Register</h2>
-        <form class="form-detail" action="#" method="post">
+        <form class="form-detail" action="{{route('register')}}" method="post">
+          @csrf
           <div class="form-row">
-            <label class="form-row-inner">
+            <label class="form-row-inner" for="full_name_1" :value="__('full_name_1')">
               <input type="text" name="full_name_1" id="full_name_1" class="input-text" required>
               <span class="label">Username</span>
               <span class="border"></span>
             </label>
           </div>
           <div class="form-row">
-            <label class="form-row-inner">
+            <label class="form-row-inner" for="your_email_1" :value="__('your_email_1')">
               <input type="text" name="your_email_1" id="your_email_1" class="input-text" required>
               <span class="label">E-Mail</span>
               <span class="border"></span>
             </label>
           </div>
           <div class="form-row">
-            <label class="form-row-inner">
+            <label class="form-row-inner" for="password_1" :value="__('password_1')">
               <input type="password" name="password_1" id="password_1" class="input-text" required>
               <span class="label">Password</span>
               <span class="border"></span>
             </label>
           </div>
           <div class="form-row">
-            <label class="form-row-inner">
+            <label class="form-row-inner" for="comfirm_password_1" :value="__('comfirm_password_1')">
               <input type="password" name="comfirm_password_1" id="comfirm_password_1" class="input-text" required>
               <span class="label">Confirm Password</span>
               <span class="border"></span>

@@ -36,7 +36,7 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Welcome To Our Website!</div>
+                <div class="masthead-subheading">May the Force be With You!</div>
                 <div class="masthead-heading text-uppercase">It's Nice To Meet You Young Padawan</div>
                 <a class="btn btn-primary btn-xl text-uppercase" href="#services">GET STARTED</a>
             </div>
